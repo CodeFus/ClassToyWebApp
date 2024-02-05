@@ -1,0 +1,102 @@
+/* Importing Google Fonts for the specified font families */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Fredericka+the+Great&family=Honk&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* Styling for h1 element */
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Honk, monospace;
+    font-size: 50px;
+}
+
+/* Styling for button element */
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #E8A87C;
+    color: white;
+    font-weight: bold;
+    border: 1px black; /* Should be 'solid' or 'dotted' after '1px' */
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for button on hover state */
+button:hover {
+    background-color: white; /* Change the color when hovering */
+    color: #E8A87C;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Styling for body element */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #E8A87C;
+    background-image: url('img/img1.jpg'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+    background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+/* Styling for container class */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for section element */
+section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styling for button inside container */
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+/* Styling for story id */
+#story {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    font-size: 26px;
+    font-style: italic;
+}
+
+/* Styling for p class */
+.p {
+    font-family: Railway, cursive;
+}
+
+/* Styling for spell-effect class with animation */
+.spell-effect {
+    animation: spell 0.5s ease-in-out;
+    display: inline-block;
+}
+
+/* Keyframes for spell animation */
+@keyframes spell {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+
+
